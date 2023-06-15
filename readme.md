@@ -103,8 +103,7 @@
 - Step 6 - After setting all parameters, just pass document and options to `pdf.create` method.
 
   ```javascript
-  pdf
-    .create(document, options)
+  pdf(document, options)
     .then((res) => {
       console.log(res);
     })
